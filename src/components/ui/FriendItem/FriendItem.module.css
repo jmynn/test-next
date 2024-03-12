@@ -1,0 +1,7 @@
+.friend {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

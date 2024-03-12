@@ -1,0 +1,10 @@
+.groupList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.error {
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}

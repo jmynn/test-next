@@ -1,0 +1,42 @@
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(241, 240, 247);
+    padding: 10px;
+    border-radius: 21px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.column:first-child {
+    flex: 0 0 100px;
+    height: 100px;
+}
+.column:last-child {
+    flex: 0 0 auto;
+}
+.friends {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.friends > button {
+    background-color: lightpink;
+    border-radius: 21px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 0;
+}
